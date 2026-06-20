@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "496609215444",
+    "project_id": "projectandroid-62c14",
+    "storage_bucket": "projectandroid-62c14.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496609215444:android:a8ae2eda504532f7e6cc41",
+        "android_client_info": {
+          "package_name": "uz.mobiler.gita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSB_De5QIe8Cgk2bhiJO9AeOsbX2IwsJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496609215444:android:b29db7136fb72831e6cc41",
+        "android_client_info": {
+          "package_name": "uz.mobiler.gita.notesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSB_De5QIe8Cgk2bhiJO9AeOsbX2IwsJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:clickable="true"
+    android:foreground="?android:selectableItemBackgroundBorderless"
+    android:focusable="true"
+    android:background="@drawable/note_bcg"
+    android:clipToOutline="true"
+    android:elevation="9dp">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/baloo_bold"
+        android:maxLines="1"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/body_tv"
+        android:layout_width="0dp"
+        android:layout_marginBottom="9dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="9dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/baloo_regular"
+        android:lineHeight="17dp"
+        android:maxLines="2"
+        android:minLines="1"
+        android:text="inafnione aepofnake vaio vpkasd sdkvnksd nv vne afbskf nbs dnvdln vasda sfasfaef afafafa efa efa efaefafe aefef afpoanp kvd a"
+        android:textColor="@color/secondary_text"
+        android:textSize="15.3sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_tv" />
+</androidx.constraintlayout.widget.ConstraintLayout>
